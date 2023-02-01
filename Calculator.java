@@ -30,25 +30,16 @@ public class Calculator implements ActionListener{
     textField.setBounds(50, 25, 300, 50);
     textField.setFont(myFont);
     textField.setEditable(false);
-    addButton = new JButton("+");
-    subButton = new JButton("-");
-    mulButton = new JButton("x");
-    divButton = new JButton("/");
-    decButton = new JButton(".");
-    equButton = new JButton("=");
-    delButton = new JButton("Delete");
-    clrButton = new JButton("Clear");
-    negButton = new JButton("(-)");
-
-    functionButtons[0] = addButton;
-    functionButtons[1] = subButton;
-    functionButtons[2] = mulButton;
-    functionButtons[3] = divButton;
-    functionButtons[4] = decButton;
-    functionButtons[5] = equButton;
-    functionButtons[6] = delButton;
-    functionButtons[7] = clrButton;
-    functionButtons[8] = negButton;
+   
+    functionButtons[0] = new JButton("+");
+    functionButtons[1] = new JButton("-");
+    functionButtons[2] = new JButton("x");
+    functionButtons[3] = new JButton("/");
+    functionButtons[4] = new JButton(".");
+    functionButtons[5] = new JButton("=");
+    functionButtons[6] = new JButton("Delete");
+    functionButtons[7] = new JButton("Clear");
+    functionButtons[8] = new JButton("(-)");
 
     for(int i = 0; i < 9; i++)
     {
